@@ -1,6 +1,10 @@
 # be.rufer.CS.Examples.Blazor.Webassembly
 Playing around with Blazor Webassembly
 
+## Important notes
+
+> Razor component file names require a capitalized first letter. 
+
 ## Useful links
 - [Blazor official website](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
 - [Blazor official doc](https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-5.0)
