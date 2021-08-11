@@ -11,6 +11,8 @@ Playing around with Blazor Webassembly
 
 > Blazor WebAssembly apps don't currently have a concept of DI scopes. Scoped-registered services behave like Singleton services.
 
+> Providing initial values for component parameters is supported, but don't create a component that writes to its own parameters after the component is rendered for the first time.
+
 ## Useful links
 - [Blazor official website](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
 - [Blazor official doc](https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-5.0)
