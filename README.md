@@ -1,7 +1,7 @@
 # be.rufer.CS.Examples.Blazor.Webassembly
 Playing around with Blazor Webassembly
 
-## Important notes
+## Collection of important notes out of the official documentation
 
 > Razor component file names require a capitalized first letter. 
 
@@ -13,7 +13,9 @@ Playing around with Blazor Webassembly
 
 > Providing initial values for component parameters is supported, but don't create a component that writes to its own parameters after the component is rendered for the first time.
 
-## Useful links
+> The property receiving the RenderFragment content must be named ChildContent by convention
+
+## Some useful links
 - [Blazor official website](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
 - [Blazor official doc](https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-5.0)
 - [Blazor tutorial](https://dotnet.microsoft.com/learn/aspnet/blazor-tutorial/intro)
