@@ -9,6 +9,8 @@ Playing around with Blazor Webassembly
 
 > Configuration and settings files in a Blazor WebAssembly app are visible to users. Don't store app secrets, credentials, or any other sensitive data in the configuration or files of a Blazor WebAssembly app.
 
+> Blazor WebAssembly apps don't currently have a concept of DI scopes. Scoped-registered services behave like Singleton services.
+
 ## Useful links
 - [Blazor official website](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
 - [Blazor official doc](https://docs.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-5.0)
